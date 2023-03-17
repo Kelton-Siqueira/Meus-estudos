@@ -1,0 +1,64 @@
+
+*{
+    background-color: beige;
+}
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+.cronometro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    
+}
+
+.corpo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+;
+}
+
+.ele{
+    padding-top: 40px;
+    margin: 5%;
+}
+
+button{
+
+    padding: 20px 70px;
+    
+}
+.numeros{
+    padding: 20px 120px;
+    margin: 20;
+    border: solid 2px;
+}
+[w1]{
+    background-color: green;
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+
+[w2]{
+    background-color: rgb(169, 169, 167);
+    color: aliceblue;
+    font-size: 20px;
+}
+
+[w3]{
+    background-color: red;
+    color: aliceblue;
+    font-size: 20px;
+}
+button:hover{
+    cursor: pointer;
+}
+
+button{
+    border: solid 2px;
+    
+}

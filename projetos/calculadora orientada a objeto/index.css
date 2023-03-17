@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+}
+
+body{
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+
+.calc{
+    width: 400px;
+    padding: .5em;
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+    flex-direction:column;
+}
+.operetion{
+    text-align: right;
+}
+
+.previous-operetion{
+    color: #777;
+    padding: .2em;
+    overflow-wrap: break-word;
+    min-height: 1.6em;
+}
+.current-operetion{
+    min-height: 1.6em;
+    font-size: 3em;
+    font-weight: 700;
+    padding: 0.2em;
+    overflow-wrap: break-word;/* serve para ter uma quebra de linha, fazendo que não utrapasse o corpo da tag */
+}
+
+.buttons-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3px;
+}
+ .buttons-container button{
+    border: 1px solid transparent;
+    border-radius: 0;
+    height: 4em;
+    height: 4em;
+    font-size: 1.2em;
+    background-color: #9d9898;
+    cursor: pointer;
+ }
+
+ .buttons-container .number{
+    background-color: #d1d1d1;
+ }
+
+ .buttons-container button:hover{
+    background-color: #bababa;
+    border-color: #999;
+ }
+
+.buttons-container .iqual{
+    grid-column: span 3;
+    background-color: #0b91ff;
+    
+}
+
+.buttons-container .iqual:hover{
+    background-color: aqua;
+}
