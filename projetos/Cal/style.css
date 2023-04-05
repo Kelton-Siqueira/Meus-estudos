@@ -1,0 +1,60 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(180deg, rgb(15, 15, 214), rgb(230, 0, 255), rgb(13, 14, 13));
+    height: 100vh;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.box{
+    background-color: #272525;
+    padding: 20px 30px;
+    
+    
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #b2b1b1;
+    color: aliceblue;
+
+}
+
+.zero button{
+    height: 103px;
+    background-color: tomato;
+}
+.iqual button{
+    width: 103px;
+    background-color: aqua;
+}
+
+.tela{
+    background-color: rgb(240, 242, 244);
+    height: 30px;
+    margin: 3px;
+    padding: 0;
+    text-align: end;
+    color: #272525;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.td{
+    display: flex;
+    justify-content: space-between;
+}
+
+
